@@ -60,7 +60,7 @@ func _get_property_list() -> Array[Dictionary]:
 			"type": TYPE_OBJECT,
 			"hint": PROPERTY_HINT_RESOURCE_TYPE,
 			"hint_string": "ImageTexture",
-			"usage": PROPERTY_USAGE_DEFAULT | PROPERTY_USAGE_READ_ONLY
+			"usage": PROPERTY_USAGE_DEFAULT
 		}
 	)
 

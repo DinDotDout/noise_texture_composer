@@ -18,10 +18,10 @@ var output: ImageTexture
 
 # WARNING: Care with the variable names
 # Must match the names in the _get_property_list() method
-var texture_r: NoiseTexture2D
-var texture_g: NoiseTexture2D
-var texture_b: NoiseTexture2D
-var texture_a: NoiseTexture2D
+var texture_r: Texture2D
+var texture_g: Texture2D
+var texture_b: Texture2D
+var texture_a: Texture2D
 
 
 func _get_texture_names() -> Array[String]:
@@ -49,7 +49,7 @@ func _get_property_list() -> Array[Dictionary]:
 				"name": name,
 				"type": TYPE_OBJECT,
 				"hint": PROPERTY_HINT_RESOURCE_TYPE,
-				"hint_string": "NoiseTexture2D",
+				"hint_string": "NoiseTexture2D, GradientTexture2D",
 				"usage": PROPERTY_USAGE_DEFAULT
 			}
 		)
